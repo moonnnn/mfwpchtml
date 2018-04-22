@@ -8,6 +8,7 @@
     height:59px;
     border-bottom:1px solid #d6d6d6;
     box-sizing:border-box;
+    background: #fff;
 }
 .header-in {
     width:1000px;
@@ -43,12 +44,7 @@
     display:inline-block;
     padding:0 14px;
 }
-.nav>ul>li:nth-of-type(1)>a {
-    color:#fff;
-}
-.nav>ul>li:nth-of-type(1)>a:hover {
-    color:#fff;
-}
+
 .nav strong {
     color:#ef523d;
     margin-right:4px;
@@ -64,66 +60,11 @@
     margin-left:3px;
     vertical-align:middle;
 }
-.nav>ul>li:nth-of-type(2)>a,.nav>ul>li:nth-of-type(3)>a,.nav>ul>li:nth-of-type(5)>a,.nav>ul>li:nth-of-type(7)> {
-    border-bottom:3px solid #ffffff;
+.nav>ul>li{
+    border-bottom:#fff solid 3px;
 }
-.nav>ul>li:nth-of-type(2)>a:hover,.nav>ul>li:nth-of-type(3)>a:hover,.nav>ul>li:nth-of-type(5)>a:hover,.nav>ul>li:nth-of-type(7)>a:hover {
-    border-bottom:3px solid #ff9d00;
-}
-.nav>ul>li:nth-of-type(1)>a {
-    background:#ff9d00;
-    height:59px;
-    line-height:56px;
-}
-.nav>ul>li:nth-of-type(4)>a,.nav>ul>li:nth-of-type(6)>a {
-    border-top:3px solid transparent;
-    border-right:1px solid transparent;
-    border-left:1px solid transparent;
-    height:55px;
-    line-height:51px;
-}
-.nav>ul>li:nth-of-type(4)>a:hover,.nav>ul>li:nth-of-type(6)>a:hover {
-    border-top:3px solid #ff9e00;
-    border-right:1px solid #c9c9c9;
-    border-left:1px solid #c9c9c9;
-    height:55px;
-    line-height:51px;
-}
-/*nav-xiala*/
-.xl {
-    width:110px;
-    border:1px solid #c9c9c9;
-    border-top:0px;
-    background-color:rgba(255,255,255,0.95);
-    line-height:40px;
-    position:absolute;
-    z-index:999;
-    display:none;
-    margin-top:1px;
-}
-.xl li:hover {
-    background:#efefef;
-}
-.xl li a:hover {
-    color:#333333;
-}
-.xl li a {
-    margin-left:16px;
-}
-.xlt {
-    width:220px;
-    border:1px solid #c9c9c9;
-    border-top:0;
-    background-color:rgba(255,255,255,0.95);
-    line-height:40px;
-    margin-top:-1px;
-    position:absolute;
-    z-index:999;
-    display:none;
-}
-.xlt li a {
-    margin-left:16px;
-    margin-right:16px;
+.nav>ul>li:hover{
+    border-bottom:#ff9d00 solid 3px;
 }
 .zxlo {
     float:left;
